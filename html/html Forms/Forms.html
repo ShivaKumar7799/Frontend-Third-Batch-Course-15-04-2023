@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in html</title>
+  </head>
+  <body>
+    <h1>Login Form</h1>
+     <fieldset>
+      <legend>Application Form</legend>
+      <form>
+      
+        <div>
+          <label for="userName" >UserName :</label>
+          <input
+            type="text"
+            id="userName"
+            name="userName"
+            placeholder="Enter user name"
+            value =""
+          />
+        </div>
+  
+        <div>
+          <label for="password" >Pasword :</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter password"
+            value ="abc"
+          />
+        </div>
+  
+        <div>
+          <label for="email" >Email :</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+          />
+        </div>
+  
+        <div>
+          <label for="phNumber" >Mobile Number :</label>
+          <input
+            type="number"
+            id="phNumber"
+            name="phNumber"
+          />
+        </div>
+  
+        <div>
+          <span>Select Gender:</span>
+          <label for="male" >Male :</label>
+          <input
+            type="radio"
+            id="male"
+            name="gender"
+   
+          />
+          <label for="female">Female:</label>
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+          />
+          <label for="others">Others</label>
+          <input
+            type="radio"
+            id="others"
+            name="gender"
+          />
+        </div>
+        <div>
+          <input type="checkbox"  >
+        </div>
+        <div>
+          <textarea name="" id="" cols="50" rows="5" value = "asdf" placeholder="Enter Feedback..." ></textarea>
+        </div>
+        <div>
+          <input type="date">
+        </div>
+        <div>
+          <input type="datetime-local">
+        </div>
+        <div>
+          <input type="button" value="login" >
+          <input type="submit" value="login" >
+        </div>
+        <div>
+          <input type="color">
+        </div>
+        <div>
+          <select name="" id="" multiple size="2" >
+            <option value="cricket">Cricket</option>
+            <option value="football">Foot Ball</option>
+            <option value="Hockey">Hockey</option>
+          </select>
+        </div>
+        <div>
+          <input type="file">
+        </div>
+        <div>
+          <input type="week">
+        </div>
+        <div>
+          <input type="month">
+        </div>
+        <div>
+          <input type="reset">
+        </div>
+        <div>
+          <input type="range">
+        </div>
+      </form>
+     </fieldset>
+  </body>
+</html>
