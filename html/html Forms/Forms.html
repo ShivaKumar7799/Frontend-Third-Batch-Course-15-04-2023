@@ -10,16 +10,18 @@
     <h1>Login Form</h1>
      <fieldset>
       <legend>Application Form</legend>
-      <form>
+      <form autocomplete="off" novalidate >
       
         <div>
           <label for="userName" >UserName :</label>
           <input
             type="text"
             id="userName"
-            name="userName"
+            name="firstname"
             placeholder="Enter user name"
-            value =""
+            value ="Visakhapatnam"
+            required
+            readonly
           />
         </div>
   
@@ -31,6 +33,7 @@
             name="password"
             placeholder="Enter password"
             value ="abc"
+            disabled
           />
         </div>
   
@@ -39,7 +42,8 @@
           <input
             type="email"
             id="email"
-            name="email"
+            name="googleEmail"
+            required
           />
         </div>
   
@@ -87,14 +91,14 @@
           <input type="datetime-local">
         </div>
         <div>
-          <input type="button" value="login" >
-          <input type="submit" value="login" >
+          <input type="button" value="login" disabled >
+          <input type="submit" value="login"  >
         </div>
         <div>
           <input type="color">
         </div>
         <div>
-          <select name="" id="" multiple size="2" >
+          <select name="city" id="" size="" multiple >
             <option value="cricket">Cricket</option>
             <option value="football">Foot Ball</option>
             <option value="Hockey">Hockey</option>
