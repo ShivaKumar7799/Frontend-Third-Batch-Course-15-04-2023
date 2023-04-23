@@ -1,0 +1,100 @@
+/* id selector */
+#idSelector{
+  color: blue;
+}
+
+/* class selector */
+/* .classSelector{
+  color: orange;
+} */
+
+/* tag selector */
+h2{
+  color : violet;
+}
+
+/* selecting a child inside a parent only */
+#childParas .first{
+  color : red;
+}
+
+/* selecting a specific element with sepecific class */
+p.second{
+  color : green;
+}
+
+/* universal selectors */
+
+/* *{
+  color : yellow;
+  background-color: black;
+} */
+
+/* h3{
+  color: gray;
+} */
+
+/* group selectors */
+.third,.fourth,.second{
+  background-color: yellow;
+}
+
+
+/* pseudo selectors */
+h3:hover{
+  background-color: red;
+  color: yellow;
+}
+
+
+/* child selectors */
+
+/* li:nth-child(even){
+  color: blue;
+}
+
+li:nth-child(odd){
+  color : red
+} */
+
+li:first-child {
+  color: red;
+}
+
+li:last-child{
+  color : blue
+}
+
+li:nth-last-child(2){
+  color: green;
+}
+
+li:nth-child(2){
+  color : yellow
+}
+
+li:nth-child(5){
+  background-color: red;
+}
+
+
+#learnCss::first-letter{
+  color: green;
+}
+
+/* all childs  */
+/* #moreClasses .start.end{
+  background-color: aqua;
+} */
+
+/* direct childs */
+#moreClasses > .start.end{
+  background-color: aqua;
+}
+
+
+h4 + h5{
+  color: goldenrod;
+}
+
+
