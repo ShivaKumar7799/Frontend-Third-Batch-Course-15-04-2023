@@ -1,0 +1,68 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+#para1{
+  border: 1px solid blue;
+  padding: 5px;
+  /* margin: 10px; */
+  border-bottom: none;
+  outline: 10px solid red;
+}
+
+#para2{
+  border: 1px solid red;
+  padding: 5px;
+  /* margin: 20px; */
+}
+
+#parent{
+  border: 2px solid blue;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+#box {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+#vertical span{
+  vertical-align : super;
+}
+
+
+#withBoxModel{
+  width:100%;
+  /* width: 300px; */
+  background-color: red;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#withoutBoxModel{
+  width:100%;
+  background-color: red;
+  padding: 100px;
+  /* margin: 100px; */
+  box-sizing: border-box;
+}
+
+#box button {
+  /* cursor: pointer; */
+  /* cursor: move; */
+  /* cursor: progress;
+  cursor: wait;
+  cursor: help;
+  cursor: e-resize; */
+  cursor: crosshair;
+}
+

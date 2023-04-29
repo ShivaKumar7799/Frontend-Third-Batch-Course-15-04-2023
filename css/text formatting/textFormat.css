@@ -1,0 +1,45 @@
+#headingText{
+  color : red;
+  font-size: 40px;
+  /* font-size: 4rem; */
+  /* font-size: 4em; */
+  text-shadow: 3px 3px 5px blue;
+}
+
+#textPara{
+  font-size: 16px;
+  font-weight: normal;
+  /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  /* opacity: 0.5; */
+  opacity: 0.9;
+  /* text-transform: uppercase; */
+  /* text-transform: lowercase; */
+  /* text-transform: capitalize; */
+  text-indent: 100px;
+  /* letter-spacing: 2px; */
+  /* line-height: 40px; */
+  /* word-spacing: 20px; */
+  white-space: wrap;
+  /* text-decoration-color: red; */
+  /* text-decoration-line: underline; */
+  /* text-decoration-line: overline; */
+  /* text-decoration-line: line-through; */
+  text-decoration: underline double green 5px;
+  line-height: 40px;
+}
+
+a{
+  text-decoration: none;
+}
+
+#alignment{
+  /* text-align: left; */
+  /* text-align: center; */
+  /* text-align: justify; */
+  /* white-space: nowrap; */
+  /* direction: ltr; */
+  /* direction: rtl; */
+  color: wheat;
+  /* background-color: rgb(7, 20, 32); */
+  background-color: #82c082;
+}
