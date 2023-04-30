@@ -1,0 +1,50 @@
+.positionBox{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 2px solid green;
+}
+
+.static{
+  position: static;
+}
+
+.relative{
+  position: relative;
+  /* top: 100px; */
+  bottom: 100px;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  z-index: 9;
+}
+
+.fixed {
+  position: fixed;
+  top: 100px;
+  right : 200px;
+  z-index: 9;
+}
+
+.sticky{
+  position: sticky;
+  bottom: 50px;
+}
+
+.parentAbsolute{
+  height: 300px;
+  background-color: yellow;
+  position: relative;
+}
+
+.childAbsolute{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
