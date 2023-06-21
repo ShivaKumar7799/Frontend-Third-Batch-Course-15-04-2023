@@ -30,3 +30,8 @@ console.log(_isEmployed)
 
 
 // var, let and const 
+
+salary = 10000;
+extraSalary = "3000"
+totalSalary = salary + extraSalary
+console.log(totalSalary)
