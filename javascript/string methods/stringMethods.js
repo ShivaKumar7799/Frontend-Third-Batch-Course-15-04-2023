@@ -84,4 +84,5 @@ console.log(avaialbeSeason)
 
 let tech = "javascript";
 let techYear = 1995;
-console.log(`${tech} is introuduced in ${techYear}`)
+console.log(`the ${tech} is introuduced in ${techYear}`)
+document.getElementById("jsIntro").innerHTML = `the ${tech} is introuduced in ${techYear}`
