@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>storages</h1>
+    <input type="text" id="userName" name="userName" placeholder="Enter userName" >
+
+    <button onclick="saveLocal()" >Save to local storage</button>
+    <button onclick="removeLocal()" >Remove from local storage</button>
+
+    <button onclick="saveSession()" >Save to session storage</button>
+    <button onclick="removeSession()" >Remove from session storage</button>
+
+    <h2 id="showData" ></h2>
+
+    <button onclick="getLocal()" >Get local storage data</button>
+    <button onclick="getSession()" >Get session storage data</button>
+
+    <script src="storages.js"></script>
+</body>
+</html>
